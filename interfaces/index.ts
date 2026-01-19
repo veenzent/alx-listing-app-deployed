@@ -34,3 +34,16 @@ export interface PropertyProps {
   image: string;
   discount?: string;
 }
+
+
+interface Review {
+  id: string;
+  comment: string;
+  rating: number;
+  author: string;
+  createdAt: string;
+}
+
+interface ReviewSectionProps {
+  propertyId: string;
+}

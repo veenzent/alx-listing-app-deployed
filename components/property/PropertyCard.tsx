@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-interface Property {
+export interface Property {
     id?: string | number;
     name: string;
     image: string;
